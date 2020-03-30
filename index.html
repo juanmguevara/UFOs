@@ -10,13 +10,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="static/css/style.css"/>
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <div class=”jumbotron”>
                 <a class="navbar-brand" href="index.html">UFO Sightings</a>
-                <h1>The Truth Is Out There</h1>
+                <h1 class="display-4">The Truth Is Out There</h1>
             </div>    
         </nav>
     </div>
@@ -37,15 +38,17 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form>
+                <form class="bg-dark">
                     <p>Filter Search</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark">
                             <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
+                            <input type="text" placeholder="Date, City, State, Country, Shape" id="filtertext" />
                         </li>
-                        <li class="list-group-item">
-                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        <li class="list-group-item bg-dark">
+                            <button id="filter-btn" type="button" class="btn btn-dark">
+                                Filter Table
+                            </button>
                         </li>
                     </ul>
                 </form>
@@ -80,6 +83,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
-    <script src="static/js/app.js"></script>  
+    <script src="static/js/app.js"></script> 
 </body>
 </html>
