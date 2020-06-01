@@ -1,6 +1,6 @@
 # UFOs
 
-Ignore the first js folder that is an old folder and not relavent anymore.
+(Ignore the first js & images folder that is an old folder and not relavent anymore.)
 
 Please see Static folder for complete code and data used.
 
