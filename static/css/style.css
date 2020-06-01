@@ -3,8 +3,14 @@ body {
     color: #f7f7f7;
 }
 
-.jumbotron {
+.banner {
     background-image: url("../images/nasa.jpg");
     background-size: 100% 100%;
+    height: 200px;
     text-align: center;
+}
+
+.jumbotron {
+    color: red;
+    background-image: url("../images/nasa.jpg");
 }
